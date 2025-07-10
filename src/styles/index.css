@@ -1,11 +1,32 @@
-/* 
+.fondoSem {
+    background-color: #333;
+    width: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.luz {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
 
-*/
+.roja {
+    box-shadow: 0 0 20px 8px red;
+}
+
+.amarilla {
+    box-shadow: 0 0 20px 8px yellow;
+}
+
+.verde {
+    box-shadow: 0 0 20px 8px green;
+}
+
+.bg-purp{
+    background-color: blueviolet;
+}
+.purp {
+    box-shadow: 0 0 20px 8px blueviolet;
+}
